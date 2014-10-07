@@ -126,7 +126,7 @@ public class PanelMainForum extends javax.swing.JFrame {
                     .addGroup(subForumListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addComponent(subForumListBoxScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, 335, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(selectSubForumButton, javax.swing.GroupLayout.PREFERRED_SIZE, 335, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(254, Short.MAX_VALUE))
+                .addContainerGap(291, Short.MAX_VALUE))
         );
         subForumListPanelLayout.setVerticalGroup(
             subForumListPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -137,7 +137,7 @@ public class PanelMainForum extends javax.swing.JFrame {
                 .addComponent(subForumListBoxScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(selectSubForumButton, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(441, Short.MAX_VALUE))
+                .addContainerGap(469, Short.MAX_VALUE))
         );
 
         selectSubForumButton.getAccessibleContext().setAccessibleName("selectSubForumButton");
@@ -184,7 +184,7 @@ public class PanelMainForum extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(subForumViewPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(threadListScrollPane, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(viewThreadButton, javax.swing.GroupLayout.DEFAULT_SIZE, 579, Short.MAX_VALUE)
+                    .addComponent(viewThreadButton, javax.swing.GroupLayout.DEFAULT_SIZE, 616, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, subForumViewPanelLayout.createSequentialGroup()
                         .addComponent(subForumHeaderLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -205,7 +205,7 @@ public class PanelMainForum extends javax.swing.JFrame {
                 .addComponent(threadListScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(viewThreadButton)
-                .addContainerGap(347, Short.MAX_VALUE))
+                .addContainerGap(375, Short.MAX_VALUE))
         );
 
         mainDisplayPanel.add(subForumViewPanel, "subForumViewPanel");
@@ -240,7 +240,7 @@ public class PanelMainForum extends javax.swing.JFrame {
                         .addComponent(replySubjectLabel1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(replySubjectText)
-                        .addGap(0, 302, Short.MAX_VALUE))
+                        .addGap(0, 339, Short.MAX_VALUE))
                     .addGroup(subForumsThreadReplyViewLayout.createSequentialGroup()
                         .addComponent(replyTextLabel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -397,7 +397,6 @@ public class PanelMainForum extends javax.swing.JFrame {
                         .addGroup(subForumThreadViewLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(navMenuComboBox1, 0, 0, Short.MAX_VALUE)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, subForumThreadViewLayout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(jLabel4)
                                 .addGap(18, 18, 18)
                                 .addComponent(goToSelectedForumPageButton))))
@@ -484,13 +483,13 @@ public class PanelMainForum extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(mainDisplayPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 599, Short.MAX_VALUE)
+                .addComponent(mainDisplayPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(mainDisplayPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 634, Short.MAX_VALUE)
+                .addComponent(mainDisplayPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 662, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
